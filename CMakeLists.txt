@@ -7,7 +7,7 @@
 cmake_minimum_required(VERSION 2.4)
 
 # project name and language
-project(MyProject CXX)
+project(TypeSystem CXX)
 
 # libTypeSystem.a
 add_library(TypeSystem STATIC TypeSystem.cpp Misc.cpp)
